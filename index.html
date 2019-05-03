@@ -22,17 +22,16 @@
             <input type="text" name="surname" id="surname" required>
           </label>
         </div>
-
         <div class="answerValue">
           <label>
             Name:
             <input type="text" name="name" id="name" required>
           </label>
         </div>
-        <div class="answerValue">
+        <div class="answ">
           <label>
             How old are You?
-            <input type="number" name="age" id="age" value="12" min="1" data-qa="field-value" size="5">
+            <input type="number" name="age" id="age" min="1" max="199" value="12" data-qa="field-value" >
           </label>
         </div>
         <div class="answerValue">
@@ -69,6 +68,8 @@
           <label>
             Do you love cats?
             <input type="radio" name="loveCats" value="yes">Yes
+          </label>
+          <label>
             <input type="radio" name="loveCats" value="no">No
           </label>
         </div>
