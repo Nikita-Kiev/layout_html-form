@@ -6,11 +6,6 @@ fieldset {
   margin-bottom: 10px;
 }
 
-.answ {
-  margin-bottom: 10px;
-  size: 2;
-}
-
 .answerValue:last-child {
   margin: 0;
 }
